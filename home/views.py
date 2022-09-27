@@ -27,3 +27,5 @@ def signup(request):
     return render(request,'signup.html')        
 def login(request):
     return render(request,'login.html')                     
+def Cart(request):
+    return render(request,'Cart.html')           
