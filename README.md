@@ -1,2 +1,2 @@
-# PetDote
+# MyAwesomeCart
 A Django E commerce website
