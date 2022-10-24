@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8b419bf42b62d275a64d206afc340efc3c49691e
 #!/usr/bin/env python
 import os
 import sys
@@ -14,6 +17,7 @@ if __name__ == '__main__':
             "forget to activate a virtual environment?"
         ) from exc
     execute_from_command_line(sys.argv)
+<<<<<<< HEAD
 =======
 #!/usr/bin/env python
 import os
@@ -31,3 +35,5 @@ if __name__ == '__main__':
         ) from exc
     execute_from_command_line(sys.argv)
 >>>>>>> 6dc7d042162ac1d7f461dddf36ffff302942dfc5
+=======
+>>>>>>> 8b419bf42b62d275a64d206afc340efc3c49691e
