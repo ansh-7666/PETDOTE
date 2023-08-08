@@ -1,0 +1,17 @@
+{% extends 'shop/basic.html' %}
+{% block title%} Payment - PetDote{% endblock %}
+{% block body %}
+<h1 style="
+padding-left: 350px;
+margin-top: 40px;
+"> Scan this Qr Code for payment </h1>
+<p style="padding-left: 400px;margin-top: 40px;color:black">Mention Your Id in the notes while payment for the products</p>
+
+{% load static %}
+<img src="{% static 'shop/images/scan.jpeg' %}" width="800" alt="My scanner" style="
+padding-left: 450px;
+margin-bottom: 100px;
+margin-top: 10px;
+">
+
+{% endblock %}

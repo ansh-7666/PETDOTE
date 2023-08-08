@@ -1,0 +1,98 @@
+{% extends 'shop/basic.html' %}
+
+{% block title%} About Us{% endblock %}
+{% block body %}
+
+
+
+
+<main role="main" style="margin-bottom: 50px;">
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <section class="inner_page_head">
+    <div class="container_fuild">
+       <div class="row">
+          <div class="col-md-12">
+             <div class="full">
+                <h3>About us</h3>
+             </div>
+          </div>
+       </div>
+    </div>
+ </section>
+
+ <div class="heading_container heading_center">
+    <h2>
+      PetDote - All about Pets!
+    </h2> 
+</div>
+<h5>A team of Animal lovers have created a website dedicated to all the lovely pets!</h5>
+{% load static %}
+<!--<div class="card" style="width: 18rem;">
+  <img src="{% static 'shop/images/doggg.jpg' %}" class="card-img-top" alt="...">
+</div> -->
+<div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="{% static 'shop/images/doggg.jpg' %}" class="card-img-top" alt="">
+  
+                    <div class="card-body">
+                      <h5 class="card-title">For Dogs</h5>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                     <img class="card-img-top" src="{% static 'shop/images/catss.jpg' %}" class="card-img-top" alt="">
+                     <div class="card-body">
+                      <h5 class="card-title">For Cats</h5>
+                     </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card">
+                   <img class="card-img-top" src="{% static 'shop/images/ham.jpg' %}" class="card-img-top" alt="">
+                   <div class="card-body">
+                       <h5 class="card-title">For Hamsters</h5>
+                   </div>
+              </div>
+          </div>
+        </div>
+    </div>
+<h5 style=" padding-left: 510px;margin-top: 50px;">And Many More....</h5>
+
+
+<style>
+  .inner_page_head {
+    background: #f7444e;
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}  
+h2{
+    padding-left: 450px;
+    font-family:Georgia, serif;
+}
+h5{
+  padding-left: 295px;
+  padding-bottom: 50px;
+  font-family:Georgia, serif;
+}
+.card-title{
+  padding-left: 0px;
+  padding-bottom: 0px;
+  font-family:American Typewriter, serif;
+}
+</style>
+
+
+</main>
+
+
+
+
+
+{% endblock %}
